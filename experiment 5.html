@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Experiment 5</title>
+</head>
+<body>
+    <h1><b><center>Student Registration Form</center></b></h1>
+    <hr>
+<form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    <label for="Phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+    <label for="checkin">Check-in Date:</label>
+    <input type="date" id="checkin" name="checkin" required><br><br>
+    <label for="checkout">Check-out Date:</label>
+    <input type="date" id="checkout" name="checkout" required><br><br>
+    <label for="roomtype">Room Type:</label>
+    <select id="room" name="room" required>
+        <option value="">Select a room type</option>
+        <option>Single Room</option>
+        <option>Double Room</option>
+        <option>Suite Room</option>
+    </select><br><br>
+    <label for="guests">Number of Guests:</label>
+    <input type="number" id="guests" name="guests" min="1" max="10" required><br><br>
+    <label for="requests">Special Requests:</label><br>
+    <textarea id="requests" name="requests" rows="4" cols="30" placeholder="Enter any special requests">
+</textarea><br><br>
+<button type="submit">Submit Book Now</button>  
+<button type="reset">Reset Now</button>
+</form>
+</fieldset>
+</body>
+</html>
